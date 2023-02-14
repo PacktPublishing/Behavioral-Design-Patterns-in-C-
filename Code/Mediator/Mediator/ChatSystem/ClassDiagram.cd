@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Server" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatServer">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <AssociationLine Name="m_Participants" Type="std::unordered_map&lt;_Kty, _Ty, _Hasher, _Keyeq, _Alloc&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.07" Y="-0.284" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChatServer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Participants" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::unordered_map&lt;_Kty, _Ty, _Hasher, _Keyeq, _Alloc&gt;" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAABAAACQAAAAAAAAAAEABAAAgQAgAAAEAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\unordered_map</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Participant">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAEAAAAACAAAAAAAQAAAAQAAABgA=</HashCode>
+      <FileName>Participant.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pServer" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

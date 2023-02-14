@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractExpression" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerminalExpression" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIgABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonTerminalExpression" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <AssociationLine Name="m_pExp1" Type="AbstractExpression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.062" />
+        <Point X="8.625" Y="4.062" />
+        <Point X="8.625" Y="2.531" />
+        <Point X="6.75" Y="2.531" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>NonTerminalExpression.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pExp1" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hangman">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIUAAAAEAAAAAYAAAAABEAQAAIAAADAAAAgAAAAAIBA=</HashCode>
+      <FileName>Hangman.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckpointManager">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheckpointManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Checkpoints" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AWAEk4EqCrBsCEBAAOMIIAAyAAUEQBIghQkwgkAFUko=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checkpoint" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAwAAAAAAAAAAAAAAAAAQAAgAAAAAABA=</HashCode>
+      <FileName>Checkpoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

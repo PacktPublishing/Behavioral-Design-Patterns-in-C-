@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Billboard" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Billboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeManager" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAABAAAAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ChangeManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnValueChanged" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>OnValueChanged.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recorder" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Recorder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sensor" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleDisplay" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemperatureSensor" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAAAAAAAiAAAAAAAAAAABAAAQAAAAAAAA=</HashCode>
+      <FileName>TemperatureSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindSpeedSensor" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAABAAAAAIAgBAAAQAAAAAAAA=</HashCode>
+      <FileName>WindSpeedSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

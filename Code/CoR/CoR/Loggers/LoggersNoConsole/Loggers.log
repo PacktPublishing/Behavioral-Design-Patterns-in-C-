@@ -1,0 +1,5 @@
+﻿  Using triplet "x86-windows" from "C:\Libs\vcpkg\installed\x86-windows\"
+  Vcpkg is unable to link because we cannot decide between Release and Debug libraries. Please define the property VcpkgConfiguration to be 'Release' or 'Debug' (currently 'LoggersNoConsole').
+  main.cpp
+E:\Work\Recording\BegDesignPatterns\Code\Behavioral\CoR\Loggers\main.cpp(25): warning C4715: 'WinMain': not all control paths return a value
+  Loggers.vcxproj -> E:\Work\Recording\BegDesignPatterns\Code\Behavioral\CoR\LoggersNoConsole\Loggers.exe

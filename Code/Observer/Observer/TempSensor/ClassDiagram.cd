@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TemperatureSensor">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAiAAAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>TemperatureSensor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Subscribers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Billboard" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Billboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recorder" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Recorder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleDisplay" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAkqEKAHBEgABEAKEIAgASFAQAJJIigQEgAhAFQwo=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnValueChanged" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>OnValueChanged.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

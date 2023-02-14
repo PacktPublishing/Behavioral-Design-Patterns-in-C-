@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Expression" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Number" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgEAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plus" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAgAAAA=</HashCode>
+      <FileName>Plus.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pExpression1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Minus" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Minus.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pExpression1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Parser" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Multiply" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Multiply.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pExpression1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Divide" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Divide.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pExpression1" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

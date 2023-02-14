@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Soldier" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAABAAAAAAAAgAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Soldier.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pAlarm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HeavyGunner" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="AlarmObserver">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.104" Y="0.09" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <AssociationLine Name="m_pAlarm" Type="Alarm" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.812" Y="5.191" />
+        <Point X="11.812" Y="6.119" />
+        <Point X="4.75" Y="6.119" />
+        <Point X="4.75" Y="5.18" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>HeavyGunner.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pAlarm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tank" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAABACAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Tank.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pAlarm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Alarm">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAABBAAAAAA=</HashCode>
+      <FileName>Alarm.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Observers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAkqEKAHBEgABEAKEIAgASFAQAJJIigQEgAhAFQwo=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmObserver" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>AlarmObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

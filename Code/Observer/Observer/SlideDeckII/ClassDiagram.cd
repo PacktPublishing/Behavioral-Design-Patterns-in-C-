@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Deck">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAgAIAAAAAAAAAAMIAAABAgAAIAAAAAAA=</HashCode>
+      <FileName>Deck.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Views" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EditorView">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <AssociationLine Name="m_pDeck" Type="Deck" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.688" Y="6.175" />
+        <Point X="9.688" Y="6.776" />
+        <Point X="4.5" Y="6.776" />
+        <Point X="4.5" Y="6.401" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditorView.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pDeck" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Slide" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAAIAQCAAAAAAAAAAAAAAAAAABABAA=</HashCode>
+      <FileName>Slide.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SlideShowView">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>SlideShowView.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pDeck" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAkqEKAHBEgABEAKEIAgASFAQAJJIigQEgAhAFQwo=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

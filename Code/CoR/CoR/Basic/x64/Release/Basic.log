@@ -1,0 +1,10 @@
+﻿  Using triplet "x64-windows" from "C:\Libs\vcpkg\installed\x64-windows\"
+  Client.cpp
+  ConcreteHandler1.cpp
+  ConcreteHandler2.cpp
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 28 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Basic.vcxproj -> E:\Work\Recording\BegDesignPatterns\Code\Behavioral\CoR\x64\Release\Basic.exe
